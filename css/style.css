@@ -1,141 +1,181 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html,
 body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    line-height: 1.42;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.42;
 }
 
 ul,
 li {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 a {
-    text-decoration: none;
-    color: #000;
+  text-decoration: none;
+  color: #000;
 }
 
 h1,
 h2,
 h3 {
-    margin: 0;
+  margin: 0;
 }
 
 .container {
-    max-width: 865px;
-    margin: 0 auto;
-    padding: 0 5px;
+  max-width: 865px;
+  margin: 0 auto;
+  padding: 0 5px;
 }
 
 .header {
-    padding-top: 30px;
-    padding-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .header__container {
-    max-width: 1032px;
-    display: flex;
-    justify-content: flex-end;
+  max-width: 1032px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .nav__list {
-    display: flex;
-    font-weight: 500;
-    font-size: 20px;
-    margin-bottom: 120px;
+  display: flex;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 120px;
 }
 
 .nav__item {
-    margin-left: 33px;
+  margin-left: 33px;
 }
 
 .about__container {
-    display: flex;
+  display: flex;
 }
 
 .about__info {
-    padding-right: 12%;
+  padding-right: 12%;
 }
 
 .about__avatar {
-    width: 243px;
-    height: 243px;
-    border-radius: 50%;
-    overflow: hidden;
-    flex-shrink: 0;
+  width: 243px;
+  height: 243px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
 }
 
 .about__img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 .about__text {
-    margin-top: 20px;
-    margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .about__button {
-    background: #FF6464;
-    border-radius: 2px;
-    color: #fff;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    padding-left: 35px;
-    padding-right: 35px;
-    border: none;
+  background: #ff6464;
+  border-radius: 2px;
+  color: #fff;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+  border: none;
 }
 
 .recent-posts {
-    background-color: #EDF7FA;
-    padding: 27px 0px 32px;
+  background-color: #edf7fa;
+  padding: 27px 0px 32px;
 }
 
 .recent-posts__top {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 22px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 22px;
 }
 
 .recent-posts__articles {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .recent-posts__link {
-    color: #00A8CC;
+  color: #00a8cc;
 }
 
 .recent-posts__separator {
-    margin-left: 26px;
-    margin-right: 26px;
+  margin-left: 26px;
+  margin-right: 26px;
 }
 
 .recent-posts__subtitle {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .recent-posts__article {
-    background: #FFFFFF;
-    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
-    border-radius: 4px;
-    width: 49%;
-    margin-right: 2%;
-    padding: 30px 48px 35px 23px;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+  border-radius: 4px;
+  width: 49%;
+  margin-right: 2%;
+  padding: 30px 48px 35px 23px;
 }
 .recent-posts__article:last-child {
-    margin-right: 0;
+  margin-right: 0;
+}
+.work {
+  display: flex;
+  margin-bottom: 46px;
+}
+.work__info {
+  margin-left: 18px;
+}
+.work__img {
+  width: 246px;
+  height: 180px;
+  border-radius: 6px;
+}
+.title-category {
+  margin-top: 36px;
+  margin-bottom: 42px;
+}
+.work__title {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 13px;
+}
+.work__subtitle {
+  display: inline-flex;
+}
+.work__date {
+    width: 62px;
+  height: 25px;
+  background: #142850;
+  border-radius: 16px;
+  font-size: 18px;
+  color: #ffffff;
+  margin-right: 36px;
+  padding-left: 10px;
+}
+.work__category {
+    color: #8695A4;
+}
+.work__text {
+    margin-top: 17px;
 }
