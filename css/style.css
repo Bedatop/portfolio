@@ -195,7 +195,8 @@ h3 {
 .work {
   display: flex;
   margin-bottom: 46px;
-  border-bottom: 2px solid grey;
+  border-bottom: 2px solid #E0E0E0;
+  padding: 32px 0;
 }
 .work__info {
   margin-left: 18px;
@@ -269,5 +270,19 @@ h3 {
     margin-right: 0;
     padding: 12px 22px 20px;
     margin-bottom: 17px;
+  }
+}
+.about__container {
+  padding-bottom: 88px;
+}
+@media (max-width: 480px) {
+  .featured__works {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 100%;
+  }
+  .featured__work {
+    display: flex;
+    overflow: auto;
   }
 }
