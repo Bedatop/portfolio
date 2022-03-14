@@ -201,10 +201,14 @@ h3 {
 .work__info {
   margin-left: 18px;
 }
-.work__img {
+.work__img-wrap {
   width: 246px;
   height: 180px;
   border-radius: 6px;
+}
+.work__img {
+  height: 100%;
+  width: auto;
 }
 .title-category {
   margin-top: 36px;
@@ -275,14 +279,28 @@ h3 {
 .about__container {
   padding-bottom: 88px;
 }
+
 @media (max-width: 480px) {
   .featured__works {
+    display: flex;
+    overflow: auto;
+  }
+  .work {
     display: flex;
     flex-direction: column;
     flex: 0 0 100%;
   }
-  .featured__work {
+  .title-category {
     display: flex;
-    overflow: auto;
+    justify-content: center;
   }
+  .icon-list__item {
+    margin-right: 0;
+}
+}
+.recent-posts__text {
+  margin-top: 13px;
+}
+.recent-posts__info {
+  margin-top: 22px;
 }
